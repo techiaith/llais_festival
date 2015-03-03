@@ -19,48 +19,15 @@ This voice was originally released under the WISPR project, funded by the Europe
 
 LOCATION
 
-http://techiaith.bangor.ac.uk/Resources/WISPR/welsh-v1.1.0.tar.gz
-
-NEW IN THIS RELEASE
-
-This voice has been tested with Festival 2.1.
-
-Issues with 'clicks' and 'pops' (LPC distortion) in some utterances have been fixed.
-
-The lexicon has been significantly increased in size to include words found on various public sector Welsh-language websites. Welsh pages were determined by the presence of <lang="cy"> as an HTML attribute for the page.
-
-Two systematic errors in the Welsh letter-to-sound rules have been fixed, and the affected pronunciations in the lexicon have been regenerated using these corrected rules.
-
-A phrasing model has been introduced, which uses part-of-speech context to determine the placement of breaks. The length of breaks have also been lengthened to aid intelligibility.
-  
-A simple intonation model has been introduced, which is again dependent on part-of-speech.
-
-Improvements have been made to tokenisation, including the ability to deal with postcodes, acronyms with mixed letters and numbers, email addresses and simple URLs.
-
-KNOWN ISSUES & LIMITATIONS
-
-Some tokenisation work remains to be done, particularly on complex URLs. If a word cannot be tokenised, an 'uh' sound will be heard in place of the word itself.
-
-The pronunciation of some Welsh words ending in apostrophes may not be similar to their baseforms, if the pronunciation of the baseform is irregular.
-
-The voice falls back to the default diphone (i.e. silence) in the case of syllable-initial consonant clusters ending with consonantal 'i'.
-
-The voice does not support Unicode, due to limitations within Festival itself. The following conventions are used for Welsh text containing accented vowels:
-
-a+ = â (i.e. vowel followed by plus sign = circumflex/tô bach accent on vowel; similarly for e+, i+, o+, u+, w+, y+)
-e: = ë (i.e. vowel followed by colon = diaeresis on vowel; similarly for a:, i:, o:, u:, w:, y:)
-a/ = á (i.e. vowel followed by forward slash = acute accent on vowel; similarly for all other Welsh vowels)
-a\ = à (i.e. vowel followed by backslash = grave accent on vowel; similarly for all other Welsh vowels)
+http://techiaith.org/
 
 SYSTEM REQUIREMENTS
 
-The current deployment of the voice is designed for Linux or Unix-based servers and command-line modes of Festival. It has been tested with Festival version 1.96 (2.0 beta, September 2005), and Festival 2.1 (release version, November 2010). It is not guaranteed to work with earlier versions.
+The current deployment of the voice is designed for Linux or Unix-based servers and command-line modes of Festival. It has been tested with Festival version 1.96—2.4. It is not guaranteed to work with earlier versions.
 
 INSTALLATION INSTRUCTIONS
 
-The tar.gz file should be extracted into the voices/ directory of the current Festival installation. A welsh/ directory will be created underneath it. For manual installations, the file should typically be extracted into the festival/lib/voices/ directory. For some Linux installations, it should be extracted into /usr/share/festival/voices/
-
-The Lexicon/ LTS/ Tokenisation/ and cb_cy_llg_diphone/ directories should all be immediately beneath the welsh/ directory. 
+The zip file (downloaded through GitHub) should be renamed to 'welsh' and extracted into the voices/ directory of the current Festival installation. The voices/ directory is typically found in /usr/share/festival/voices/.
 
 CONFIGURATION
 
@@ -69,6 +36,28 @@ The voice may be initialised and tested from the command line as follows:
 > festival
 (voice_cb_cy_llg_diphone) 
 (SayText "mae hen wlad fy nhadau yn annwyl i mi")
+
+TODO & IMPROVEMENTS
+
+Some tokenisation work remains to be done, particularly on complex URLs. If a word cannot be tokenised, an 'uh' sound will be heard in place of the word itself.
+
+The pronunciation of some Welsh words ending in apostrophes may not be similar to their baseforms, if the pronunciation of the baseform is irregular.
+
+The voice falls back to the default diphone (i.e. silence) in the case of syllable-initial consonant clusters ending with consonantal 'i'.
+
+LIMITATIONS
+
+The voice does not support Unicode, due to limitations within Festival itself. The following conventions are used for Welsh text containing accented vowels:
+
+a+ = â (i.e. vowel followed by plus sign = circumflex/tô bach accent on vowel; similarly for e+, i+, o+, u+, w+, y+)
+e: = ë (i.e. vowel followed by colon = diaeresis on vowel; similarly for a:, i:, o:, u:, w:, y:)
+a/ = á (i.e. vowel followed by forward slash = acute accent on vowel; similarly for all other Welsh vowels)
+a\ = à (i.e. vowel followed by backslash = grave accent on vowel; similarly for all other Welsh vowels)
+
+CHANGES
+
+See the [Changelog](Changelog) file.
+
 
 CONTACT
 

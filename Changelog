@@ -1,0 +1,15 @@
+Version 1.1.0
+
+* This voice has been tested with Festival 2.1.
+
+* Issues with 'clicks' and 'pops' (LPC distortion) in some utterances have been fixed.
+
+* The lexicon has been significantly increased in size to include words found on various public sector Welsh-language websites. Welsh pages were determined by the presence of <lang="cy"> as an HTML attribute for the page.
+
+* Two systematic errors in the Welsh letter-to-sound rules have been fixed, and the affected pronunciations in the lexicon have been regenerated using these corrected rules.
+
+* A phrasing model has been introduced, which uses part-of-speech context to determine the placement of breaks. The length of breaks have also been lengthened to aid intelligibility.
+  
+* A simple intonation model has been introduced, which is again dependent on part-of-speech.
+
+* Improvements have been made to tokenisation, including the ability to deal with postcodes, acronyms with mixed letters and numbers, email addresses and simple URLs.
