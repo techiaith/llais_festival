@@ -14,8 +14,7 @@
 REMARKS
 
 This release is an updated version of a North Welsh male diphone voice, working within the Festival framework.
-
-This voice was originally released under the WISPR project, funded by the European Union's INTERREG IIIA programme. This release significantly improves the voice quality compared to the previous release, fixes two minor issues in the letter-to-sound rules, and introduces a larger lexicon.
+This voice was originally released under the WISPR project, funded by the European Union's INTERREG IIIA programme.
 
 LOCATION
 
