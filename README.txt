@@ -1,17 +1,85 @@
+
 ********************************************************
-*         Welsh Text To Speech FestVox Voice           *
+*         Llais Testun i lefaru Cymraeg FestVox        *
+*                                                      *
+*               Llais : cb_cy_llg_diphone              *
+*               Fersiwn : 1.1.0                        *
+*                                                      *
+*        Technolegau Iaith (Canolfan Bedwyr)           *
+*                                                      *
+*               Prifysgol Bangor University            *
+*                   Copyright (c) 2012                 *
+*                   Cedwir Pob Hawl.                   * 
+*                                                      *
+********************************************************
+
+
+Sylwadau
+
+Mae'r cyhoeddiad hwn yn fersiwn wedi'i ddiweddaru o lais gwrwyaidd deuffon o Ogledd Cymru, sy'n gweithio o fewn fframwaith Festival. 
+Rhyddhawyd y llais yn wreiddiol fel rhan o broject WISPR, a'i ariannwyd gan raglen INTERREG IIIA yr Undeb Ewropeiaidd. 
+
+LLEOLIAD
+
+http://techiaith.org/
+
+GOFYNION SYSTEM
+
+Mae darpariaeth presennol y llais wedi ei ddylunio ar gyfer gweinyddion wedi eu seilio ar un ai Linux Unix neu a moddau llinell-orchymyn o Festival. Mae wedi ei brofi gyda fersiwn Festival 1.96—2.4. Ni ellir sicrhau y bydd yn gweithio gyda fersiynau cynharach. 
+
+CANLLAWIAU GOSOD
+
+Dylid ailenwi y ffeil zip (wedi'i lwytho i lawr drwy GitHub) yn 'cymraeg' a'i echdynnu i'r cyfieiriadur /voices o'r gosodiad Festival cyfredol. Gellir ffeindio y cyfieiriadur voices/ yn /usr/share/festival/voices/ fel arfer.
+
+FFURFWEDDIAD
+
+Gallwch ddechrau a phrofi y llais o'r linell orchymyn fel hyn: 
+
+> festival
+(voice_cb_cy_llg_diphone) 
+(SayText "mae hen wlad fy nhadau yn annwyl i mi")
+
+I'W GWNEUD & GWELLIANAU
+
+Mae rhywfaint o waith tocaneiddio eto i'w wneud, yn enwedig ar URLs cymhleth. Os na ellir tocaneiddio gair, byddwch yn clywed y swn 'uh' yn lle y gair ei hun. 
+
+Efallai na fydd anganiad rhai geiriau Cymraeg sy'n gorffen mewn dyfynodau yn debyg i'w ffurfiau gwraidd os yw anganiad y ffurf wraidd yn afreolaidd.
+
+Mae'r llais yn disgyn yn ol i'r deuffon rhagosodiedig (h.y. distawrwydd) lle bydd clystyrau cytseiniaid sillaf cychwynnol sy'n gorffen gyda 'i' gytseiniol.
+
+CYFYNGIADAU
+
+Nid yw'r llais yn cefnogi Unicode, oherwydd cyfyngiadau o fewn Festival. Defnyddir y confensiynau canlynol ar gyfer testun Cyrmaeg sy'n cynnwys llafariaid acennog:
+
+a+ = â (i.e. llafariad wedi'i ddilyn gan arwydd plws = accen tô bach ar y llafariad; ac yn yr un modd ar gyfer e+, i+, o+, u+, w+, y+)
+e: = ë (i.e. llafariad wedi'i ddilyn gan golon = diaeresis ar y llafariad ; ac yn yr un modd ar gyfer a:, i:, o:, u:, w:, y:)
+a/ = á (i.e. llafariad wedi'i ddilyn gan flaenslaes = acen lem ar y llafariad;  ac yn yr un modd ar gyfer pob llafariad Cymraeg arall)
+a\ = à (i.e. llafariad wedi'i ddilyn gan ol-slaes =  acen grave ar y llafariad; ac yn yr un modd ar gyfer pob llafariad Cymraeg arall)
+
+NEWIDIADAU
+
+Gweler y ffeil [Changelog](Changelog).
+
+
+CYSYLLTU
+
+Os oes gennych unrhyw gwestiynau ynglyn a'r cyhoeddiad hwn, cysylltwch a Dewi Jones <d.b.jones@bangor.ac.uk> os gwelwch yn dda.
+
+********************************************************
+*         Text to Speech Welsh FestVox voice           *
 *                                                      *
 *               Voice : cb_cy_llg_diphone              *
 *               Version : 1.1.0                        *
 *                                                      *
 *        Language Technologies (Canolfan Bedwyr)       *
+*                                                      *
 *               Prifysgol Bangor University            *
 *                   Copyright (c) 2012                 *
-*                  All Rights Reserved.                * 
+*                   All Rights Reserved.               * 
 *                                                      *
 ********************************************************
 
-REMARKS
+Remarks
 
 This release is an updated version of a North Welsh male diphone voice, working within the Festival framework.
 This voice was originally released under the WISPR project, funded by the European Union's INTERREG IIIA programme.
