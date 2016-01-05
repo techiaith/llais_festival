@@ -1,7 +1,7 @@
 # llais_festival
 Llais Deuffon Festival Cymraeg - Welsh Diphone Festival Voice
 
-(scroll down for English)
+( [English README](README_en.md) )
 
 ```
 ********************************************************
@@ -33,7 +33,7 @@ http://techiaith.cymru/lleferydd/testun-i-leferydd/
 
 Mae darpariaeth presennol y llais wedi ei ddylunio ar gyfer gweinyddion wedi eu seilio ar un ai Linux Unix neu a moddau llinell-orchymyn o Festival. Mae wedi ei brofi gyda fersiwn Festival 1.96—2.4 ymlaen. Ni ellir sicrhau y bydd yn gweithio gyda fersiynau cynharach. 
 
-Ar rhai system Linux, fel Ubuntu, Raspia a Debian mae modd osod Festival drwy:
+Ar rhai system Linux, fel Ubuntu ac Raspian (Raspberry Pi),  mae modd osod Festival drwy:
 
 ```
 $ sudo apt-get install festival festival-dev
