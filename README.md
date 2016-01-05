@@ -39,7 +39,7 @@ Ar rhai system Linux, fel Ubuntu ac Raspian (Raspberry Pi),  mae modd osod Festi
 $ sudo apt-get install festival festival-dev
 ```
 
-## CANLLAWIAU GOSOD
+## CANLLAWIAU GOSOD Y LLAIS CYMRAEG
 
 Dylid defnyddio'r camau canlynol i osod y llais o fewn eich gosodiad o Festival:
 
