@@ -45,9 +45,9 @@ The following commands can be used to add the Welsh voice into your Festival ins
 ```
 $ sudo mkdir -p /usr/share/festival/voices/welsh
 $ cd /usr/share/festival/voices/welsh
-$ wget --progress=dot:mega -O - https://github.com/PorthTechnolegauIaith/llais_festival/archive/v1.0.tar.gz | sudo tar -zxf -
-$ sudo mv llais_festival-1.0/* .
-$ sudo rmdir llais_festival-1.0
+$ wget --progress=dot:mega -O - https://github.com/PorthTechnolegauIaith/llais_festival/archive/v1.1.0.tar.gz | sudo tar -zxf -
+$ sudo mv llais_festival-1.1.0/* .
+$ sudo rmdir llais_festival-1.1.0
 ```
 
 ## CONFIGURATION
