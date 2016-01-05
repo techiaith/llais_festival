@@ -63,7 +63,7 @@ Gweler y ffeil [Changelog](Changelog).
 
 CYSYLLTU
 
-Os oes gennych unrhyw gwestiynau ynglyn a'r cyhoeddiad hwn, cysylltwch a Dewi Jones <d.b.jones@bangor.ac.uk> os gwelwch yn dda.
+Os oes gennych unrhyw gwestiynau ynglyn a'r cyhoeddiad hwn, cysylltwch â Uned Technolegau Iaith, Prifysgol Bangor <techiaith@bangor.ac.uk> os gwelwch yn dda.
 
 ********************************************************
 *         Text to Speech Welsh FestVox voice           *
@@ -128,4 +128,4 @@ See the [Changelog](Changelog) file.
 
 CONTACT
 
-For any questions regarding this release, please contact Dewi Jones <d.b.jones@bangor.ac.uk>.
+For any questions regarding this release, please contact Bangor University's Language Technologies Unit <techiaith@bangor.ac.uk>.
